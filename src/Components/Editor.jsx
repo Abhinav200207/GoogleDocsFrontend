@@ -3,6 +3,7 @@ import Quill from 'quill';
 import 'quill/dist/quill.snow.css'
 import { Box } from '@mui/material'
 import styled from '@emotion/styled';
+import  "./Editor.css"
 
 import { io } from "socket.io-client";
 import { useParams } from 'react-router-dom';

@@ -1,6 +1,7 @@
 import Editor from "./Components/Editor";
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { v4 as uuid } from 'uuid';
+import "./App.css"
 
 function App() {
   return (
