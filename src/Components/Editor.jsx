@@ -45,7 +45,7 @@ const Editor = () => {
     }, []);
 
     useEffect(() => {
-        const socketServer = io('https://docs-clone-ab.herokuapp.com/');
+        const socketServer = io('https://docs-clone-ab-production.up.railway.app/');
         setSocket(socketServer)
 
         return () => {
